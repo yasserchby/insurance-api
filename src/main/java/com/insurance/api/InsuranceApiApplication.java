@@ -1,4 +1,4 @@
-package com.insurance.insurance_api;
+package com.insurance.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
