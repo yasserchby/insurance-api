@@ -19,7 +19,7 @@ public class Company extends Client {
     @NotBlank(message = "Company identifier is required")
     @Pattern(regexp = "^[A-Za-z0-9]+-[A-Za-z0-9.]+$",
             message = "Company identifier must match pattern: xxx-xxx")
-    @Column(nullable = false, unique = true, updatable = false)
+    @Column(unique = true, updatable = false)
     private String companyIdentifier;
 
     @Override
